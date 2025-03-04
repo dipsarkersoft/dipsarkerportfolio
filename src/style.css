@@ -445,10 +445,11 @@ textarea::placeholder {
 
 
 
-  footer {
-    background-color: var(--back-color);
-    color: var(--sec-color);
-  }
+ .footer{
+
+  margin-top: 100px;
+  background-color: #494b50;
+ }
   
   .logo {
     width: 60px; /* Adjust the logo size */
@@ -464,14 +465,13 @@ textarea::placeholder {
     color: var(--fourth-color);
   }
   
-  .menu a {
-    color: var(--sec-color);
+  .menu{
+  
+    margin: 10px 0px;
     text-decoration: none;
   }
   
-  .menu a:hover {
-    color: var(--fifth-color);
-  }
+ 
 
   /* footer end */
 
