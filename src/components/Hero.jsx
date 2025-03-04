@@ -3,6 +3,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
+import myimage from "../assets/dipimage.jpg"
 
 export const Hero = () => {
   return (
@@ -65,7 +66,7 @@ export const Hero = () => {
           <div className="col-md-5 text-center position-relative">
             <div className="image-wrapper">
               <img
-                src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/2-1.jpg"
+                src={myimage}
                 alt="Profile Picture"
                 className="rounded-circle img-fluid"
               />

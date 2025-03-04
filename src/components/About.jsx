@@ -1,4 +1,5 @@
 import React from "react";
+import imgme from "../assets/imagerotate.png"
 
 export const About = () => {
   return (
@@ -8,7 +9,7 @@ export const About = () => {
         <div className="col-md-6 aboutim d-flex">
           <div className="aboutimage">
             <img
-              src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/2-2.jpg"
+              src={imgme}
               alt=""
             />
           </div>
