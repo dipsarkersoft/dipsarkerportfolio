@@ -12,14 +12,15 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-md-4  align-items-center mb-3 mb-md-0">
-              <img
+              <img 
+              className="footerlogo"
                 src={logo}
                 alt="Logo"
                 width="full" height="50"
               />
 
               <div>
-                <p className="mt-4">
+                <p className="footertxt mt-4">
                   Competitive Programmer | Software Developer | Python Developer
                 </p>
               </div>

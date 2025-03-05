@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 export const Navbar = () => {
   return (
-    <div>
+    <div className='NVBAR'>
       <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
   

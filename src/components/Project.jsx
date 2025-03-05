@@ -1,21 +1,20 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import bn1 from "../assets/bank/bn1.png"
-import bn2 from "../assets/bank/bn2.png"
-import bn3 from "../assets/bank/bn3.png"
-import bn4 from "../assets/bank/bn4.png"
-import bn5 from "../assets/bank/bn5.png"
+import bn1 from "../assets/bank/bn1.png";
+import bn2 from "../assets/bank/bn2.png";
+import bn3 from "../assets/bank/bn3.png";
+import bn4 from "../assets/bank/bn4.png";
+import bn5 from "../assets/bank/bn5.png";
 
-import mang1 from "../assets/mango/mang1.png"
-import mang2 from "../assets/mango/mang2.png"
+import mang1 from "../assets/mango/mang1.png";
+import mang2 from "../assets/mango/mang2.png";
 
-
-import par1 from "../assets/parking/par1.png"
-import par2 from "../assets/parking/par2.png"
-import par3 from "../assets/parking/par3.png"
-import par4 from "../assets/parking/par4.png"
-import par5 from "../assets/parking/par5.png"
+import par1 from "../assets/parking/par1.png";
+import par2 from "../assets/parking/par2.png";
+import par3 from "../assets/parking/par3.png";
+import par4 from "../assets/parking/par4.png";
+import par5 from "../assets/parking/par5.png";
 
 export const Project = () => {
   return (
@@ -27,7 +26,7 @@ export const Project = () => {
         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link active"
+              className="nv nav-link active"
               id="pills-parking-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-parking"
@@ -41,7 +40,7 @@ export const Project = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
+              className="nv nav-link"
               id="pills-mango-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-mango"
@@ -55,7 +54,7 @@ export const Project = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
+              className="nv nav-link"
               id="pills-banking-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-banking"
@@ -69,10 +68,7 @@ export const Project = () => {
           </li>
         </ul>
 
-     
         <div className="tab-content" id="pills-tabContent">
-      
-
           <div
             className="tab-pane fade show active "
             id="pills-parking"
@@ -80,13 +76,11 @@ export const Project = () => {
             aria-labelledby="pills-parking-tab"
           >
             <div className="d-flex">
-           
               <div
                 id="parkingCarousel"
-                className="carousel slide"
+                className="carousel slide col-md-5"
                 data-bs-ride="carousel"
                 data-bs-interval="2000"
-                style={{ flex: 1 }}
               >
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -119,7 +113,7 @@ export const Project = () => {
                   </div>
                   <div className="carousel-item">
                     <img
-                     src={par5}
+                      src={par5}
                       className="d-block w-100"
                       alt="Parking Carousel 3"
                     />
@@ -152,12 +146,9 @@ export const Project = () => {
                 </button>
               </div>
 
-              
               <div className="card  prcrd col-md-7">
                 <div className="card-body">
                   <h5 className="card-title ">Parking Management System</h5>
-
-                 
 
                   <p className="features"> Features </p>
 
@@ -172,23 +163,21 @@ export const Project = () => {
                     categories, monitor system activities, and track revenue.
                     The system ensures secure and efficient parking management.
                   </p>
-                  <div className="d-flex Linkall">
-                    <div className="btndv col-md-4">
+                  <div className="row Linkall text-center">
+                    <div className="col-12 col-md-4 mt-3 btndv">
                       <button className="butn">Live Link</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Frontend Code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Front Code</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Backend code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Back Code</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-         
 
           <div
             className="tab-pane fade"
@@ -197,16 +186,14 @@ export const Project = () => {
             aria-labelledby="pills-mango-tab"
           >
             <div className="d-flex">
-              
               <div
                 id="mangoCarousel"
                 className="carousel slide"
                 data-bs-ride="carousel"
-                data-bs-interval="2000" 
+                data-bs-interval="2000"
                 style={{ flex: 1 }}
               >
                 <div className="carousel-inner">
-                  
                   <div className="carousel-item active">
                     <img
                       src={mang2}
@@ -248,14 +235,11 @@ export const Project = () => {
                 </button>
               </div>
 
-             
               <div className="card  prcrd col-md-7">
                 <div className="card-body">
                   <h5 className="card-title ">
                     Mango Selling E-Commerce Platform
                   </h5>
-
-              
 
                   <p className="features"> Features </p>
 
@@ -270,23 +254,22 @@ export const Project = () => {
                     to secure admin functionalities, with secure payment
                     processing and order tracking available for users.
                   </p>
-                  <div className="d-flex Linkall">
-                    <div className="btndv col-md-4">
+
+                  <div className="row Linkall text-center">
+                    <div className="col-12 col-md-4 mt-3 btndv">
                       <button className="butn">Live Link</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Frontend Code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Front Code</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Backend code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Back Code</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-         
 
           <div
             className="tab-pane fade"
@@ -295,7 +278,6 @@ export const Project = () => {
             aria-labelledby="pills-banking-tab"
           >
             <div className="d-flex">
-          
               <div
                 id="bankingCarousel"
                 className="carousel slide col-md-5"
@@ -312,21 +294,21 @@ export const Project = () => {
                   </div>
                   <div className="carousel-item">
                     <img
-                     src={bn1}
+                      src={bn1}
                       className="d-block w-100"
                       alt="Banking Carousel 2"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
-                     src={bn2}
+                      src={bn2}
                       className="d-block w-100"
                       alt="Banking Carousel 2"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
-                     src={bn4}
+                      src={bn4}
                       className="d-block w-100"
                       alt="Banking Carousel 2"
                     />
@@ -365,12 +347,9 @@ export const Project = () => {
                 </button>
               </div>
 
-           
               <div className="card  prcrd col-md-7">
                 <div className="card-body">
                   <h5 className="card-title ">Bank Management System</h5>
-
-              
 
                   <p className="features"> Features </p>
 
@@ -384,16 +363,15 @@ export const Project = () => {
                     monitor transactions, and handle bankruptcy cases.
                   </p>
 
-
-                  <div className="d-flex Linkall">
-                    <div className="btndv col-md-4">
+                  <div className="row Linkall text-center">
+                    <div className="col-12 col-md-4 mt-3 btndv">
                       <button className="butn">Live Link</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Frontend Code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Front Code</button>
                     </div>
-                    <div className="btndv col-md-4">
-                      <button className="butn"> Backend code</button>
+                    <div className="col-12 col-md-4 mt-3 btndv">
+                      <button className="butn">Back Code</button>
                     </div>
                   </div>
                 </div>
