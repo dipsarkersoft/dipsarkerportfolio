@@ -44,40 +44,38 @@ export const Contact = () => {
     <div className="row d-flex">
    
 
-      <div className="col-md-5">
-        <div className="d-flex p-4 rounded mb-4">
-        <div className="conIcon">
-          <CiLocationOn />  
-          </div>
-          <div className="conTXT">
-            <h4>Address</h4>
-            <p className="mb-2">Rajshahi, Bangladesh </p>
-          </div>
-        </div>
-        <div className="d-flex p-4 rounded mb-4">
-            <div className="conIcon">
-            <MdOutlineMailOutline />  
+    <div className="col-md-5 col-12">
+  <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start p-4 rounded mb-4">
+    <div className="conIcon me-3">
+      <CiLocationOn />
+    </div>
+    <div className="conTXT">
+      <h4>Address</h4>
+      <p className="mb-2">Rajshahi, Bangladesh</p>
+    </div>
+  </div>
 
-            </div>
-        
-          
-          <div className="conTXT">
-            <h4>Mail Us</h4>
-            <p className="mb-2">sarkerdip005@gmail.com</p>
-          </div>
+  <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start p-4 rounded mb-4">
+    <div className="conIcon me-3">
+      <MdOutlineMailOutline />
+    </div>
+    <div className="conTXT">
+      <h4>Mail Us</h4>
+      <p className="mb-2">sarkerdip005@gmail.com</p>
+    </div>
+  </div>
 
-        </div>
-        <div className="d-flex p-4 ">
-        <div className="conIcon">
-        <CiMobile4 />
-          </div>
-          <div className="conTXT">
-            <h4>Telephone</h4>
-            <p className="mb-2">+8801303053626</p>
-          </div>
+  <div className="d-flex flex-column flex-sm-row align-items-center text-center text-sm-start p-4">
+    <div className="conIcon me-3">
+      <CiMobile4 />
+    </div>
+    <div className="conTXT">
+      <h4>Telephone</h4>
+      <p className="mb-2">+8801303053626</p>
+    </div>
+  </div>
+    </div>
 
-        </div>
-      </div>
       <div className="frm col-md-7">
         <form onSubmit={handleSubmit}>
           <input

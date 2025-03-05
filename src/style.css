@@ -624,9 +624,15 @@ textarea::placeholder {
     text-align: center;
   }
 
+  .conTXT {
+   
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
   .details span {
     color: var(--sec-color);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
 }
 .details h3 {
