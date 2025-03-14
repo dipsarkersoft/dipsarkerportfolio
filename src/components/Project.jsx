@@ -155,7 +155,7 @@ export const Project = () => {
                   <p className="descproject">
                     The Vehicle Parking Management System allows users to
                     register, select parking slots from category-wise options
-                    (e.g., Premium,Gold,Platinum,VIP), and enjoy dynamic pricing based on
+                    (e.g., Premium , Gold , Platinum , VIP), and enjoy dynamic pricing based on
                     time and category. Upon parking, a digital ticket is
                     generated, which is used for payment upon return via
                     SSLCommerz. Users can view parking history and payment
