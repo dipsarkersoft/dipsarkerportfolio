@@ -14,12 +14,9 @@ function App() {
     <>
     <BrowserRouter>
     <Toaster />
-    <Navbar/>
+  
      <Home/>
-     <Resume/>
-     <Project/>
-     <Contact/>
-     <Footer/>
+     
      </BrowserRouter>
     </>
   )

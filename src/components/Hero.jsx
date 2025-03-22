@@ -1,11 +1,18 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
-
+import { Link as BSLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import myimage from "../assets/dipimage.jpg"
 
 export const Hero = () => {
+
+
+  const git="https://github.com/dipsarkersoft/"
+const fb="https://www.facebook.com/Dipsarkerofficial"
+const linkd="https://www.linkedin.com/in/dip-sarker/"
+const tw="https://x.com/Dip__Sarker"
+
   return (
     <div className="hero-section">
       <div className="container">
@@ -38,28 +45,28 @@ export const Hero = () => {
             </p>
 
             <div className="social-icons mt-3">
-              <Link to="/facebook" className="btn btn-dark btn-lg">
+              <Link to={fb} className="btn btn-dark btn-lg" target="_blank">
                 <FaFacebookF />
               </Link>
-              <Link to="/twitter" className="btn btn-dark btn-lg">
+              <Link to={tw} className="btn btn-dark btn-lg" target="_blank">
                 <FaTwitter />
               </Link>
-              <Link to="/linkedin" className="btn btn-dark btn-lg">
+              <Link to={linkd} className="btn btn-dark btn-lg" target="_blank">
                 <FaLinkedinIn />
               </Link>
-              <Link to="/github" className="btn btn-dark btn-lg">
+              <Link to={git} className="btn btn-dark btn-lg" target="_blank">
                 <FaGithub />
               </Link>
             </div>
 
             <div className=" text-center mt-4 d-block d-md-none">
-              <a
-                href="/path/to/resume.pdf"
-                download
-                className="btn btn-primary"
-              >
-                Download CV
-              </a>
+              < BSLink 
+                         to={"https://drive.google.com/file/d/1-BwMXeLfrkYIRGz2w8bK6VxoUL9ABeNr/view"} 
+                         className="btn btn-primary"
+                          target="_blank"
+                         >
+                           Download CV
+                         </BSLink>
             </div>
           </div>
 

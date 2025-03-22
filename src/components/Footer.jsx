@@ -5,6 +5,11 @@ import logo from '../assets/logo.png'
 
 import { Link } from "react-router-dom";
 
+const git="https://github.com/dipsarkersoft/"
+const fb="https://www.facebook.com/Dipsarkerofficial"
+const linkd="https://www.linkedin.com/in/dip-sarker/"
+const tw="https://x.com/Dip__Sarker"
+
 const Footer = () => {
   return (
     <>
@@ -58,16 +63,16 @@ const Footer = () => {
             </div>
 
             <div className="col-md-4 social-icons text-center">
-              <Link to="/facebook" className="btn btn-dark btn-lg">
+              <Link to={fb} className="btn btn-dark btn-lg" target="_blank">
                 <FaFacebookF />
               </Link>
-              <Link to="/twitter" className="btn btn-dark btn-lg">
+              <Link to={tw} className="btn btn-dark btn-lg" target="_blank">
                 <FaTwitter />
               </Link>
-              <Link to="/linkedin" className="btn btn-dark btn-lg">
+              <Link to={linkd} className="btn btn-dark btn-lg" target="_blank">
                 <FaLinkedinIn />
               </Link>
-              <Link to="/github" className="btn btn-dark btn-lg">
+              <Link to={git} className="btn btn-dark btn-lg" target="_blank">
                 <FaGithub />
               </Link>
             </div>

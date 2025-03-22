@@ -1,6 +1,6 @@
 import React from "react";
 import imgme from "../assets/imagerotate.png"
-
+import { Link as BSLink } from "react-router-dom";
 export const About = () => {
   return (
     <div>
@@ -56,9 +56,17 @@ export const About = () => {
               to improve my skills.
             </p>
             <div className=" btndwnld  ">
-            <a href="/path/to/resume.pdf" download className="btn btn-primary">
+            {/* <a href="/path/to/resume.pdf" download className="btn btn-primary">
               Download CV
-            </a>
+            </a> */}
+
+     < BSLink 
+            to={"https://drive.google.com/file/d/1-BwMXeLfrkYIRGz2w8bK6VxoUL9ABeNr/view"} 
+            className="btn btn-primary"
+             target="_blank"
+            >
+              Download CV
+            </BSLink>
           </div>
 
            

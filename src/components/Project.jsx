@@ -165,13 +165,13 @@ export const Project = () => {
                   </p>
                   <div className="row Linkall text-center">
                     <div className="col-12 col-md-4 mt-3 btndv">
-                      <button className="butn">Live Link</button>
+                      <Link to={"https://front-parking.vercel.app/"}  target="_blank"  className="butn">Live Link</Link>
                     </div>
                     <div className="col-12 col-md-4 mt-3 btndv">
-                      <button className="butn">Front Code</button>
+                      <Link className="butn">Front Code</Link>
                     </div>
                     <div className="col-12 col-md-4 mt-3 btndv">
-                      <button className="butn">Back Code</button>
+                      <Link className="butn">Back Code</Link>
                     </div>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export const Project = () => {
 
                   <div className="row Linkall text-center">
                     <div className="col-12 col-md-4 mt-3 btndv">
-                      <button className="butn">Live Link</button>
+                    <Link to={"https://frontfinal-two.vercel.app/"}   target="_blank"  className="butn">Live Link</Link>
                     </div>
                     <div className="col-12 col-md-4 mt-3 btndv">
                       <button className="butn">Front Code</button>
