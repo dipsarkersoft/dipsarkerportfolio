@@ -35,7 +35,7 @@ export const Navbar = () => {
                   smooth={true}
                   duration={500}
                 >
-                  Hero
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
